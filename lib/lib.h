@@ -22,3 +22,6 @@ void f4(struct s2 s);
 
 
 void f5(void (*f)(int));
+
+
+void sleepwhile();

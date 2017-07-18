@@ -2,7 +2,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <unistd.h>
 
 void f0(void) {
 	printf("f0()\n");
@@ -42,4 +42,8 @@ void f5(void (*f)(int)) {
 	for (i = 0; i < 3; i++) {
 		f(i);
 	}
+}
+
+void sleepwhile(){
+ 	sleep(20);
 }
